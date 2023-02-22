@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import Timer from './components/Timer';
 import './App.css';
 
 function App() {
+    const [days, setDays] = useState(10);
+    const [hours, setHours] = useState(10);
+    const [min, setMin] = useState(10);
+    const [sec, setSec] = useState(10);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Timer days = {days} hours = {hours} min = {min} sec = {sec}/>
     </div>
   );
 }
