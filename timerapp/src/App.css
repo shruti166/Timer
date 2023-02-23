@@ -1,5 +1,22 @@
-.App {
-  text-align: center;
+body {
+  background: url("https://media.istockphoto.com/id/1213886580/vector/modern-tropical-background-jungle-plants-nature-backdrop-summer-palm-leaves-wallpaper.jpg?s=612x612&w=0&k=20&c=IJX7xm2fz56ST7w84CnytWQyaNym9BozyO8K6ASSXww=");
+  background-size: cover;
+  opacity: 0.7;
+  
+}
+
+.day {
+  margin: 5px
+  
+}
+.timer {
+  display: flex;
+  align-items: center;
+  font-size: 150px;
+  color: rgb(46, 45, 44);
+  font-weight: 500;
+  width: 40%;
+  margin: 20px auto;
 }
 
 .App-logo {
