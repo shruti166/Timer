@@ -1,9 +1,13 @@
 import React from "react";
 
 
-export default function Timer({days, hours, min, sec}) {
-    console.log()
+export default function Timer({ hours, min, sec}) {
+  
   return <div>
-    <p>{days}</p>
+    <p>{hours}</p>
+    <span>:</span>
+    <p>{min}</p>
+    <span>:</span>
+    <p>{sec}</p>
   </div>;
 }
