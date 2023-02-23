@@ -1,13 +1,14 @@
 import React from "react";
+import "../App.css";
 
 
 export default function Timer({ hours, min, sec}) {
   
-  return <div>
-    <p>{hours}</p>
-    <span>:</span>
-    <p>{min}</p>
-    <span>:</span>
-    <p>{sec}</p>
+  return <div className="timer">
+    <div><p>{hours}</p></div>
+    <div><span>:</span></div>
+    <div><p>{min}</p></div>
+    <div><span>:</span></div>
+    <div><p>{sec}</p></div>
   </div>;
 }
