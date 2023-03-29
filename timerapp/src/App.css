@@ -6,7 +6,8 @@ body {
 }
 
 .day {
-  margin: 5px
+  margin: 5px;
+  font-size: large;
   
 }
 .timer {
